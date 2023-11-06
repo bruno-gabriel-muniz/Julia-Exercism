@@ -95,7 +95,10 @@ function CombinaNum(QuantNum, ListNumDesBloq, NumObjetivo, CheckPoint = length(L
     return ListCombinaçãoCorreta
 end
 
-
+"""
+    função que verifica se a combinação emcontrada é valida, se ela ultrapassa
+o limite ou se está abaixo dele
+"""
 function VerifComb(Combinado, NumObjetivo)
     if sum(Combinado)::Int == NumObjetivo::Int
         return 1
@@ -106,7 +109,7 @@ end
 
 
 """
-Função principal do programa -> acha as outras funções nescessárias
+Função principal do programa -> chama as outras funções nescessárias
 e devolve a lista de possibilidades já classificada
 """
 function combinations_in_cage(NumObjetivo,QuantNum, NumBloq = [])
