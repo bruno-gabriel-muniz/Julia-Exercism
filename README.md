@@ -26,3 +26,9 @@ function is_leap_year(year)
    return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)
 end
 ```
+## nucleotide-count -- 3.3.0
+
+Exercício, fácil, em que você tem que contar quantas vezes certos caracteres se repetem em uma string, ao mesmo tempo que verifica se elas são válidas e retornar um erro caso não sejam.
+<div>
+Além disso, minha solução passa por cada letra da string enquanto tenta adicionar a contagem de cada letra no dicionário a medida em que vai encontrando elas e verificando se elas são válidas através de estruturas de decisões. Porém, este não é o método mais eficiente, pois eu poderia usar a função try e cached para retornar um erro em caso de uma letra inválida.
+</div>
