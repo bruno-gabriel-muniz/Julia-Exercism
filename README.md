@@ -1,4 +1,4 @@
-# Exercícios do site Execism
+# Exercícios do site Exercism
 
 Este é o projeto em que eu vou realizar todos os  exercícios de julia do site Exercism, assim como, avaliar os resultados obtidos neles, através deste mesmo arquivo readme.
 
