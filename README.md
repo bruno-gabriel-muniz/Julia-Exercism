@@ -26,9 +26,27 @@ function is_leap_year(year)
    return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)
 end
 ```
-## nucleotide-count -- 3.3.0
+## nucleotide-count -- 3.3
 
 Exercício, fácil, em que você tem que contar quantas vezes certos caracteres se repetem em uma string, ao mesmo tempo que verifica se elas são válidas e retornar um erro caso não sejam.
 <div>
 Além disso, minha solução passa por cada letra da string enquanto tenta adicionar a contagem de cada letra no dicionário a medida em que vai encontrando elas e verificando se elas são válidas através de estruturas de decisões. Porém, este não é o método mais eficiente, pois eu poderia usar a função try e cached para retornar um erro em caso de uma letra inválida.
 </div>
+
+## pangram -- 4.3
+
+Exercício fácil, no qual se tem que verificar se todas as letras do alfabeto estão contidas em uma frase. Exemplo de pangrama sem acento: `Quem traz CD, LP, fax, engov e whisky JB?`
+
+<div>
+Paralelamente, ele pode ser resolvido através de uma simples linha de código: 
+</div>
+
+```
+function ispangram(input)
+    'a':'z' ⊆ lowercase(input)
+end
+```
+
+Porém, devido ao meu desconhecimento des funções utilizadas, eu basicamente fiz a minha solução aplicando diversas outras e, assim, ela ficou bem maior (55 linhas contra 10), mesmo que tão rápida quanto a solução acima. Visto que, ela executou todos os teste em menos de 0.0 segundos e em 0.2 no primeiro o que é o mesmo resultado da solução acima:
+
+<img src="https://i.ibb.co/JFTvZvJ/image.png" alt="image" border="0">
