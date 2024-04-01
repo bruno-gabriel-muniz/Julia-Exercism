@@ -46,8 +46,6 @@ function rotate(NumRot::Int, Palavra)
     # na string final 
     PalavraCriptografada *= Char(CodeCaractere)
   end
-  # Demonstrando a saida do programa
-  println("$Palavra => $PalavraCriptografada")
   # Verificando se a saida esta no formato de Char
   # para correcao dos tipos da saida do programa
   if typeof(Palavra) == Char
