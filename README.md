@@ -73,3 +73,7 @@ Meu resultado.
 Primeiramente, passei um dia tentando desobrir como resolver esse problema, mas no final só consigui resolver o bônus A. Já que, ainda sou iniciante (logo tenho dificuldades de olhar na documentação, que está em inglês, no qual não sou tão bom ainda), como também, existem poucos materiais de ensino gratuitos da linguagem Julia.
 
 Apesar dos contra tempos, consegui entender melhor algumas coisas sobre macros na linguagem Julia e eval's, embora só tenha aplicado a macro.
+
+## difference-of-squares 6.0.1
+
+Exercício fácil feito para explorar sintex de julia enquanto à multiplicação de matrizes por números apenas colocando um ponto na frente do símbulo da operação.
